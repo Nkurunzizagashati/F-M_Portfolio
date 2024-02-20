@@ -1,4 +1,4 @@
-This is a portifolio website build with HTML5 and CSS3 no any other framework
+This is a portifolio website built with HTML5 and CSS3 no any other framework
 
 Contributors:
 Gasore MUGWANEZA
