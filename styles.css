@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  color: hsl(0, 0%, 50%);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar .first-nav-link {
+  color: white;
+}
+
+.home-image-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+p {
+  color: hsl(0, 0%, 50%);
+}
+
+.text-leading {
+  color: white;
+}
+
+.home-section {
+  display: flex;
+  max-width: 1000px;
+  margin: 140px auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_media-buttons-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 10px;
+}
+
+button {
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+  background-color: #222222;
+  border: none;
+  box-shadow: 0px 1px 6px #1916c8;
+}
+
+button a {
+  font-size: 1rem;
+}
+
+button:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
