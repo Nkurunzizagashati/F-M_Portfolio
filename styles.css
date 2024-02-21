@@ -1,7 +1,26 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Robotto", sans-serif;
+  background-color: #222222;
+} */
+
+h2,
+h3,
+h4 {
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p {
+  color: hsl(0, 0%, 50%);
 }
 
 .container {
@@ -11,13 +30,134 @@
 }
 
 .skills-section {
+  margin-top: 100px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-title {
+  font-size: 2rem;
+}
+
+/* =================================== */
+/* LANGUAGES */
+/* =================================== */
+
+.languages-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.languages-container h3 {
+  margin-left: 10px;
+}
+
+.languages {
+  display: flex;
+  gap: 1rem;
+  padding: 5px 10px;
+}
+
+.languages img {
+  width: 40px;
+  align-self: flex-start;
+}
+
+.languages p {
+  font-size: 0.9rem;
+}
+
+.languages h4 {
+  margin-bottom: 10px;
+}
+
+/* =================================== */
+/* SKILLS */
+/* =================================== */
+
+.skills-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  padding: 20px;
+}
+
+.skills-container-title {
+}
+
+.skills-sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.skills {
+}
+
+.skills-headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-headers h4 {
+  line-height: 0.8;
+}
+
+.skills-progressbar {
+  height: 4px;
+  background-color: white;
+}
+
+.skills-progressbar span {
+  display: block;
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.skills:nth-child(2) .skills-progressbar span {
+  width: 70%;
+}
+.skills:nth-child(3) .skills-progressbar span {
+  width: 80%;
+}
+.skills:nth-child(4) .skills-progressbar span {
+  width: 95%;
+}
+.skills:nth-child(5) .skills-progressbar span {
+  width: 90%;
+}
+.skills:nth-child(6) .skills-progressbar span {
+  width: 73%;
+}
+.skills:nth-child(7) .skills-progressbar span {
+  width: 78%;
+}
+
+/* .skills-section {
   display: flex;
   background-color: red;
   justify-content: space-between;
   align-items: baseline;
-}
+} */
 
-.coding-skills-container {
+/* .coding-skills-container {
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -43,7 +183,7 @@
   width: 100%;
   background-color: white;
   margin-top: 0;
-}
+} */
 
 /* .coding-skills div {
   height: 4px;
@@ -51,7 +191,7 @@
   background-color: white;
 } */
 
-.coding-skills .knowledge-bar {
+/* .coding-skills .knowledge-bar {
   display: block;
   width: 70%;
   height: 100%;
@@ -64,4 +204,4 @@
 
 .coding-skills-container {
   width: 40%;
-}
+} */
