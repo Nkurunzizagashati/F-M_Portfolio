@@ -451,4 +451,13 @@ footer .footer-map {
     border-radius: 5px;
 
   }
+  .contact-info div p,
+  .social-links div h5 {
+    font-size: 1rem;
+    opacity: 60%;
+
+  }
+  footer .footer-map {
+    padding: 0 5%;
+  }
 }
