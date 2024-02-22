@@ -395,7 +395,6 @@ footer .footer-map {
   border-radius: 5px;
 }
 
-
 /* Footer Link  */
 .footer-link-container {
   display: flex;
@@ -411,14 +410,14 @@ footer .footer-map {
   display: inline-block;
   columns: #fff;
   list-style: none;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
-.footer-link-container ul li a ,
-.footer-link-container p{
+.footer-link-container ul li a,
+.footer-link-container p {
   color: #fff;
   opacity: 50%;
-  font-size: .8rem;
-  margin-right: .8rem;
+  font-size: 0.8rem;
+  margin-right: 0.8rem;
   font-weight: 200;
 }
 .footer-link-container p {
@@ -426,18 +425,17 @@ footer .footer-map {
   opacity: 60%;
 }
 
-
 /* =========== RESPONSIVENESSS =============== */
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 850px) {
   .container {
     width: 100%;
     margin: 0;
     padding: 0;
   }
   .portifolio-container .work-container {
-  display: grid;
-  grid-template-columns: 100%;
+    display: grid;
+    grid-template-columns: 100%;
   }
   .portifolio-container .work-container img {
     width: 100%;
@@ -447,17 +445,75 @@ footer .footer-map {
     text-transform: uppercase;
   }
   .portifolio-container .work-card div button {
-    padding: .7rem 1.5rem;
+    padding: 0.7rem 1.5rem;
     border-radius: 5px;
-
   }
   .contact-info div p,
   .social-links div h5 {
     font-size: 1rem;
     opacity: 60%;
-
   }
   footer .footer-map {
     padding: 0 5%;
   }
+}
+
+/* =============================================== */
+/* MEDIA QUERIES */
+/* =============================================== */
+
+/* Skills section Media queries */
+
+@media screen and (max-width: 800px) {
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .languages-container {
+    width: 100%;
+  }
+
+  .languages-container h3 {
+    text-align: center;
+  }
+
+  .languages-subcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 2rem;
+  }
+
+  .skills-container h3 {
+    text-align: center;
+  }
+
+  .home-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 60px;
+  }
+
+  .text-container {
+    padding: 0 10px;
+  }
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #222222;
+  padding: 20px 0;
 }
