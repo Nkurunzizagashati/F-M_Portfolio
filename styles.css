@@ -113,17 +113,13 @@ button:hover {
 
 /* Previous Work */
 
-.portifolio-container {
-  width: 100vw;
-  height: auto;
-  text-align: center;
-}
 .portifolio-container h1 {
   font-weight: bold;
   font-size: 2rem;
   color: #fff;
   line-height: 1.25rem;
   padding: 4rem 0;
+  text-align: center;
 }
 
 .portifolio-container .work-container {
@@ -132,7 +128,7 @@ button:hover {
   display: grid;
   grid-template-columns: 30% 30% 30%;
   gap: 5rem;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 
 .portifolio-container .work-container .work-card {
@@ -432,3 +428,36 @@ footer .footer-map {
 
 
 /* =========== RESPONSIVENESSS =============== */
+
+@media screen and (max-width:850px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .portifolio-container .work-container {
+  display: grid;
+  grid-template-columns: 100%;
+  }
+  .portifolio-container .work-container img {
+    width: 100%;
+    height: auto;
+  }
+  .portifolio-container .work-card h2 {
+    text-transform: uppercase;
+  }
+  .portifolio-container .work-card div button {
+    padding: .7rem 1.5rem;
+    border-radius: 5px;
+
+  }
+  .contact-info div p,
+  .social-links div h5 {
+    font-size: 1rem;
+    opacity: 60%;
+
+  }
+  footer .footer-map {
+    padding: 0 5%;
+  }
+}
