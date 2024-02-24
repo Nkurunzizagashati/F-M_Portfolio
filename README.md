@@ -16,7 +16,7 @@ Fabrice worked on Home section, header, and Skills sections.
 Gasore worked on the Portfolio, contact, and footer sections.
 
 
-We used google meet, and gmail for easy communication and effective communication.
+We used google meet, and gmail for easy and effective communication.
 
 <h2>Responsiveness implementation</h2>
 
